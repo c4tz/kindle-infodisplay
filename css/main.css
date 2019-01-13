@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    margin: 20px;
+}
+
+i {
+    font-size: 50pt;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+}
+
+.wrapper { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+} 
+
+.fullwidth { 
+    grid-column-start: 1; 
+    grid-column-end: 3;
+}
+
+.text-left {
+    justify-content: left;
+}
+
+.time {
+    height: 150px;
+    font-size: 60pt;
+}
+
+.date {
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.half {
+    width: 50%;
+    float: left;
+}
+
+#birthdaytitle {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+#birthdays p {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+}
+
+#birthdays {
+    margin-top: 25px;
+}
+
+#birthdays, #birthdaytitle {
+    display: none;
+}
+
+#forecast {
+    clear: both;
+    font-size: 9pt;
+    height: 110px;
+}
+
+#forecast div{
+    float: left;
+    width: 33.33333%;
+}
+
+#forecast i{
+    font-size: 24pt;
+}
