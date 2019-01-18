@@ -1,6 +1,6 @@
 # kindle-infodisplay
 
-A small website used to display current weather, forecast & upcoming birthdays on a Kindle Paperwhite as described in [my blogpost](https://jaroz.ink/blog/infodisplay/).
+A small website used to display current time, weather, forecast & upcoming birthdays on a Kindle Paperwhite as described in [my blogpost](https://jaroz.ink/blog/infodisplay/).
 
 **Warning:** This code was neither written to be easily adapted/customized nor for a "modern" browser as you know it. The Kindle Paperwhite's "Beta Browser" comes with several limitations, which is why there are some ugly passages in the source.
 
